@@ -112,4 +112,81 @@
       text-align: center;
     }
   </style>
-</
+</head>
+
+<body>
+
+  <div class="hero">
+    <h1>Amigo Power Services</h1>
+    <p class="hero-tagline">
+      Project and site management within power and critical infrastructure.
+    </p>
+  </div>
+
+  <h2>About</h2>
+  <p>
+    Amigo Power Services provides hands-on project and site management services
+    within the power and energy sector.
+  </p>
+  <p>
+    The focus is on practical execution, on-site coordination, and reliable
+    delivery in complex electrical environments.
+  </p>
+
+  <h2>Services</h2>
+  <ul>
+    <li><strong>Project Management</strong> – planning, coordination, delivery</li>
+    <li><strong>Site Management</strong> – on-site supervision and coordination</li>
+    <li><strong>Technical Inspections</strong> – inspections and deviation reporting</li>
+    <li><strong>Testing & Commissioning</strong> – support during testing and handover</li>
+  </ul>
+
+  <h2>Sectors</h2>
+  <ul>
+    <li>Power generation and distribution</li>
+    <li>Electrical substations and grid infrastructure</li>
+    <li>Critical infrastructure</li>
+    <li>Industrial electrical installations</li>
+  </ul>
+
+  <h2>Contact</h2>
+  <form class="contact-form"
+        action="mailto:info@amigopowerservices.com"
+        method="post"
+        enctype="text/plain">
+
+    <label>
+      Name
+      <input type="text" name="Name" required>
+    </label>
+
+    <label>
+      Email
+      <input type="email" name="Email" required>
+    </label>
+
+    <label>
+      Message
+      <textarea name="Message" rows="5" required></textarea>
+    </label>
+
+    <button type="submit">Send message</button>
+  </form>
+
+  <footer class="site-footer">
+    <p>
+      © <span id="year"></span> Amigo Power Services ·
+      Project & Site Management ·
+      <a href="mailto:info@amigopowerservices.com">info@amigopowerservices.com</a>
+    </p>
+    <p style="font-size: 0.8rem;">
+      Independent consulting services · No public authority function
+    </p>
+  </footer>
+
+  <script>
+    document.getElementById("year").textContent = new Date().getFullYear();
+  </script>
+
+</body>
+</html>
